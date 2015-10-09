@@ -14,6 +14,9 @@
 		0429A0541BC7C0C500A4E9B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0429A0531BC7C0C500A4E9B6 /* Images.xcassets */; };
 		0429A0571BC7C0C500A4E9B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0429A0551BC7C0C500A4E9B6 /* LaunchScreen.xib */; };
 		0429A0631BC7C0C500A4E9B6 /* ___collectionView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A0621BC7C0C500A4E9B6 /* ___collectionView__Tests.m */; };
+		0429A0721BC7CBDC00A4E9B6 /* LXImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A0701BC7CBDC00A4E9B6 /* LXImagesCell.m */; };
+		0429A0731BC7CBDC00A4E9B6 /* LXImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0429A0711BC7CBDC00A4E9B6 /* LXImagesCell.xib */; };
+		0429A0761BC7D4DF00A4E9B6 /* LXLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A0751BC7D4DF00A4E9B6 /* LXLineLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		0429A05C1BC7C0C500A4E9B6 /* 自定义collectionView布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义collectionView布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429A0611BC7C0C500A4E9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0429A0621BC7C0C500A4E9B6 /* ___collectionView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___collectionView__Tests.m"; sourceTree = "<group>"; };
+		0429A06F1BC7CBDC00A4E9B6 /* LXImagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXImagesCell.h; sourceTree = "<group>"; };
+		0429A0701BC7CBDC00A4E9B6 /* LXImagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXImagesCell.m; sourceTree = "<group>"; };
+		0429A0711BC7CBDC00A4E9B6 /* LXImagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXImagesCell.xib; sourceTree = "<group>"; };
+		0429A0741BC7D4DF00A4E9B6 /* LXLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLineLayout.h; sourceTree = "<group>"; };
+		0429A0751BC7D4DF00A4E9B6 /* LXLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLineLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,11 @@
 		0429A0451BC7C0C500A4E9B6 /* 自定义collectionView布局 */ = {
 			isa = PBXGroup;
 			children = (
+				0429A06F1BC7CBDC00A4E9B6 /* LXImagesCell.h */,
+				0429A0701BC7CBDC00A4E9B6 /* LXImagesCell.m */,
+				0429A0711BC7CBDC00A4E9B6 /* LXImagesCell.xib */,
+				0429A0741BC7D4DF00A4E9B6 /* LXLineLayout.h */,
+				0429A0751BC7D4DF00A4E9B6 /* LXLineLayout.m */,
 				0429A04A1BC7C0C500A4E9B6 /* AppDelegate.h */,
 				0429A04B1BC7C0C500A4E9B6 /* AppDelegate.m */,
 				0429A04D1BC7C0C500A4E9B6 /* ViewController.h */,
@@ -202,6 +215,7 @@
 				0429A0521BC7C0C500A4E9B6 /* Main.storyboard in Resources */,
 				0429A0571BC7C0C500A4E9B6 /* LaunchScreen.xib in Resources */,
 				0429A0541BC7C0C500A4E9B6 /* Images.xcassets in Resources */,
+				0429A0731BC7CBDC00A4E9B6 /* LXImagesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +236,8 @@
 				0429A04F1BC7C0C500A4E9B6 /* ViewController.m in Sources */,
 				0429A04C1BC7C0C500A4E9B6 /* AppDelegate.m in Sources */,
 				0429A0491BC7C0C500A4E9B6 /* main.m in Sources */,
+				0429A0721BC7CBDC00A4E9B6 /* LXImagesCell.m in Sources */,
+				0429A0761BC7D4DF00A4E9B6 /* LXLineLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
